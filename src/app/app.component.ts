@@ -7,10 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   constructor() {
-    document.addEventListener('click', function () {
-      if (window != null) {
-        window.location.href = window.location.href;
-      }
-    });
+    // document.addEventListener('click', function () {
+    //   if (window != null) {
+    //     window.location.href = window.location.href;
+    //   }
+    // });
   }
 }
