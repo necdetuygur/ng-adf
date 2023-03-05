@@ -1,7 +1,7 @@
 {
   "name": "Altın Döviz Fiyatları",
   "short_name": "Altın Döviz Fiyatları",
-  "theme_color": "#1976d2",
+  "theme_color": "#ffffff",
   "background_color": "#000000",
   "display": "standalone",
   "scope": "./",
@@ -10,20 +10,17 @@
     {
       "src": "assets/icons/icon-144x144.png",
       "sizes": "144x144",
-      "type": "image/png",
-      "purpose": "maskable any"
+      "type": "image/png"
     },
     {
       "src": "assets/icons/icon-152x152.png",
       "sizes": "152x152",
-      "type": "image/png",
-      "purpose": "maskable any"
+      "type": "image/png"
     },
     {
       "src": "assets/icons/icon-192x192.png",
       "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "maskable any"
+      "type": "image/png"
     }
   ]
 }
