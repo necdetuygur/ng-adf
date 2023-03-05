@@ -1,0 +1,39 @@
+<table class="mt-1 mb-1 table table-dark text-white table-sm">
+  <tbody>
+    <tr>
+      <td colspan="9">
+        <b>Altın Fiyatları</b>
+      </td>
+    </tr>
+    <tr>
+      <td style="width: 26%"></td>
+      <td style="width: 22%">Alış</td>
+      <td style="width: 22%">Satış</td>
+      <td style="width: 30%" class="text-end">Tahmin</td>
+    </tr>
+    <tr
+      app-fw-row
+      [title]="'Gram'"
+      [rowData]="data.gram"
+      [loading]="loadingGram"
+    ></tr>
+    <tr
+      app-fw-row
+      [title]="'Çeyrek'"
+      [rowData]="data.ceyrek"
+      [loading]="loadingCeyrek"
+    ></tr>
+    <tr
+      app-fw-row
+      [title]="'Yarım'"
+      [rowData]="data.yarim"
+      [loading]="loadingYarim"
+    ></tr>
+    <tr
+      app-fw-row
+      [title]="'Tam'"
+      [rowData]="data.tam"
+      [loading]="loadingTam"
+    ></tr>
+  </tbody>
+</table>

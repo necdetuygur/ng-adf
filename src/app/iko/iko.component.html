@@ -1,0 +1,66 @@
+<table class="mt-1 mb-1 table table-dark text-white table-sm">
+  <tbody>
+    <tr>
+      <td colspan="9">
+        <b>İzmir Kuyumcular Odası Fiyatları</b>
+      </td>
+    </tr>
+
+    <tr>
+      <td style="width: 48%"></td>
+      <td style="width: 22%">Alış</td>
+      <td style="width: 30%" class="text-end">Satış</td>
+    </tr>
+    <tr>
+      <td>Gram</td>
+      <td>
+        <app-loading *ngIf="loading"></app-loading>
+        {{ data.Gram | alis : 45 }}
+      </td>
+      <td class="text-end">
+        <app-loading *ngIf="loading"></app-loading>
+        {{ data.Gram }}
+      </td>
+    </tr>
+    <tr>
+      <td>Çeyrek</td>
+      <td>
+        <app-loading *ngIf="loading"></app-loading>
+        {{ data.Ceyrek | alis : 80 }}
+      </td>
+      <td class="text-end">
+        <app-loading *ngIf="loading"></app-loading>
+        {{ data.Ceyrek }}
+      </td>
+    </tr>
+    <tr>
+      <td>Yarım</td>
+      <td>
+        <app-loading *ngIf="loading"></app-loading>
+        {{ data.Yarim | alis : 160 }}
+      </td>
+      <td class="text-end">
+        <app-loading *ngIf="loading"></app-loading>
+        {{ data.Yarim }}
+      </td>
+    </tr>
+    <tr>
+      <td>Tam</td>
+      <td>
+        <app-loading *ngIf="loading"></app-loading>
+        {{ data.Tam | alis : 320 }}
+      </td>
+      <td class="text-end">
+        <app-loading *ngIf="loading"></app-loading>
+        {{ data.Tam }}
+      </td>
+    </tr>
+    <tr>
+      <td>Son Güncellenme Tarihi</td>
+      <td colspan="2" class="text-end">
+        <app-loading *ngIf="loading"></app-loading>
+        {{ data.Tarih }}
+      </td>
+    </tr>
+  </tbody>
+</table>

@@ -1,0 +1,17 @@
+<td>{{ title }}</td>
+<td>
+  {{ rowData.Alis }}
+  <app-loading *ngIf="loading"></app-loading>
+</td>
+<td>
+  {{ rowData.Satis }}
+  <app-loading *ngIf="loading"></app-loading>
+</td>
+<td class="text-end">
+  <app-loading *ngIf="loading"></app-loading>
+  <b
+    [ngClass]="tahminClass()"
+  >
+    {{ rowData.YarinkiBeklentiTahmin }}
+  </b>
+</td>
