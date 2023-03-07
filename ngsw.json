@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1678227744718,
+  "timestamp": 1678227930676,
   "index": "https://necdetuygur.github.io/ng-adf/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "https://necdetuygur.github.io/ng-adf/favicon.ico",
         "https://necdetuygur.github.io/ng-adf/index.html",
-        "https://necdetuygur.github.io/ng-adf/main.257d59eaf5f9778b.js",
+        "https://necdetuygur.github.io/ng-adf/main.6be68677be51e664.js",
         "https://necdetuygur.github.io/ng-adf/manifest.webmanifest",
         "https://necdetuygur.github.io/ng-adf/polyfills.b56eb6b7b894ac2a.js",
         "https://necdetuygur.github.io/ng-adf/runtime.9a875917bd455461.js",
@@ -45,8 +45,8 @@
     "https://necdetuygur.github.io/ng-adf/assets/icons/icon-192x192.png": "18f2dd1dea9fe6483afec73851eb9e70d494889a",
     "https://necdetuygur.github.io/ng-adf/assets/loading.gif": "1999e2d42b91ef83fbfd19e29b6e7dd4d612a1d3",
     "https://necdetuygur.github.io/ng-adf/favicon.ico": "58eb265f0299ad0db484949a2e5c18ee2621d982",
-    "https://necdetuygur.github.io/ng-adf/index.html": "5e82eaa501b091d9d60b693087f7e3cfb28a94e6",
-    "https://necdetuygur.github.io/ng-adf/main.257d59eaf5f9778b.js": "271dcb9f627ffe6ef46ebe87f6a73cb525f2d2dc",
+    "https://necdetuygur.github.io/ng-adf/index.html": "bef29fb4de0089bd896c407892f284224f25da0c",
+    "https://necdetuygur.github.io/ng-adf/main.6be68677be51e664.js": "889078e7f4f6a762443ab994f8e4ae31698fcc11",
     "https://necdetuygur.github.io/ng-adf/manifest.webmanifest": "56ab5061af6cae648f4eeed039dc5134ed3568e7",
     "https://necdetuygur.github.io/ng-adf/polyfills.b56eb6b7b894ac2a.js": "0920c5857420029a98c2ce879fe4964dfd24d972",
     "https://necdetuygur.github.io/ng-adf/runtime.9a875917bd455461.js": "3646787262e9eaf5dc0f610c4f330f1f2a75a43f",
