@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import * as bootstrap from 'bootstrap';
 
 @Component({
   selector: 'app-srb',
@@ -6,8 +7,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./srb.component.css'],
 })
 export class SrbComponent {
-  srbShow = false;
-  toogleSrb() {
-    this.srbShow = !this.srbShow;
+  modalSrb: any;
+  ngOnInit() {
+    this.modalSrb = new bootstrap.Modal('#modalSrb');
   }
 }
