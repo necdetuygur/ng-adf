@@ -11,6 +11,7 @@ import { AlisPipe } from './alis.pipe';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { SrbComponent } from './srb/srb.component';
 import { ProgressComponent } from './progress/progress.component';
+import { HisseComponent } from './hisse/hisse.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ProgressComponent } from './progress/progress.component';
     LoadingComponent,
     AlisPipe,
     SrbComponent,
-    ProgressComponent
+    ProgressComponent,
+    HisseComponent
   ],
   imports: [
     BrowserModule,
