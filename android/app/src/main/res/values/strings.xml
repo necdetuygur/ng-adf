@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Altın Döviz Borsa Fiyatları</string>
+    <string name="title_activity_main">Altın Döviz Borsa Fiyatları</string>
+    <string name="package_name">com.necdetuygur.adbf</string>
+    <string name="custom_url_scheme">com.necdetuygur.adbf</string>
+</resources>
