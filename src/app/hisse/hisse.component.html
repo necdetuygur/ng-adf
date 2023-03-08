@@ -31,8 +31,9 @@
       </td>
     </tr>
     <tr *ngIf="hisses.length > 0">
-      <td style="width: 48%">Hisse</td>
+      <td style="width: 26%">Hisse</td>
       <td style="width: 22%">Fiyat</td>
+      <td style="width: 22%">Değişim</td>
       <td style="width: 30%" class="text-end">İşlem</td>
     </tr>
     <ng-container *ngIf="hisses.length > 0">
@@ -42,6 +43,18 @@
         </td>
         <td>
           {{ hisse.fiyat }}
+          <app-loading *ngIf="loading"></app-loading>
+        </td>
+        <td
+          [ngClass]="
+            hisse.yuzde.indexOf('+') > -1
+              ? 'text-success'
+              : hisse.yuzde.indexOf('-') > -1
+              ? 'text-danger'
+              : ''
+          "
+        >
+          <b>{{ hisse.yuzde }}</b>
           <app-loading *ngIf="loading"></app-loading>
         </td>
         <td class="text-end">

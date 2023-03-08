@@ -21,7 +21,9 @@ export class HisseComponent {
     });
     Promise.all(gets).then((datas: any[]) => {
       this.hisses.forEach((hisse: any, index: number) => {
-        hisse.fiyat = ('' + datas[index].data).replace('.', ',');
+        const data = ('' + datas[index].data).replace('.', ',').split("|");
+        hisse.fiyat = data[0];
+        hisse.yuzde = data[1];
       });
       this.loading = false;
       localStorage.setItem('Hisse', JSON.stringify(this.hisses));
@@ -43,6 +45,7 @@ export class HisseComponent {
       id: new Date().getTime(),
       kod: this.hisseKodu,
       fiyat: '0,0',
+      yuzde: '0,0%',
     });
     this.hisses = this.hisses.sort((a: any, b: any) => {
       if (a.kod > b.kod) return 1;
