@@ -2,7 +2,23 @@
   <tbody>
     <tr>
       <td colspan="9">
-        <b>Borsa Fiyatları</b>
+        <div class="d-flex justify-content-between">
+          <b>Borsa Fiyatları</b>
+          <div class="d-flex justify-content-end">
+            <input
+              type="button"
+              value="Dışa Aktar"
+              class="btn btn-xs btn-secondary"
+              (click)="disaAktar()"
+            />
+            <input
+              type="button"
+              value="İçe Aktar"
+              class="btn btn-xs btn-secondary"
+              (click)="iceAktar()"
+            />
+          </div>
+        </div>
       </td>
     </tr>
     <tr>
@@ -75,3 +91,49 @@
     </tr>
   </tbody>
 </table>
+
+<div class="modal fade" tabindex="-1" id="modalAktar">
+  <div class="modal-dialog modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">{{ aktar }} Aktar</h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body m-0 p-0">
+        <textarea
+          id="aktarDataTxt"
+          [value]="aktarData"
+          class="form-control w-100"
+          style="height: 330px"
+          [readOnly]="aktar == 'Dışa'"
+        ></textarea>
+      </div>
+      <div class="modal-footer">
+        <button
+          *ngIf="aktar == 'Dışa'"
+          type="button"
+          class="btn btn-primary"
+          (click)="aktarDataKopyala()"
+        >
+          Kopyala
+        </button>
+        <button
+          *ngIf="aktar == 'İçe'"
+          type="button"
+          class="btn btn-primary"
+          (click)="iceAktarmaBaslat()"
+        >
+          İçe Aktar
+        </button>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+          Kapat
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
