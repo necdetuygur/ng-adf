@@ -59,7 +59,7 @@ export class HisseComponent {
     }
 
     this.hisses.push({
-      id: new Date().getTime(),
+      id: new Date().getTime() + ~~(Math.random() * 999 + 1000),
       kod: hk,
       fiyat: '0,0',
       yuzde: '0,0%',
