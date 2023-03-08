@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1678239012508,
+  "timestamp": 1678276869409,
   "index": "https://necdetuygur.github.io/ng-adf/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "https://necdetuygur.github.io/ng-adf/favicon.ico",
         "https://necdetuygur.github.io/ng-adf/index.html",
-        "https://necdetuygur.github.io/ng-adf/main.e83b76b21270173b.js",
+        "https://necdetuygur.github.io/ng-adf/main.d70da646fe0c89c1.js",
         "https://necdetuygur.github.io/ng-adf/manifest.webmanifest",
         "https://necdetuygur.github.io/ng-adf/polyfills.b56eb6b7b894ac2a.js",
         "https://necdetuygur.github.io/ng-adf/runtime.9a875917bd455461.js",
@@ -45,9 +45,9 @@
     "https://necdetuygur.github.io/ng-adf/assets/icons/icon-192x192.png": "18f2dd1dea9fe6483afec73851eb9e70d494889a",
     "https://necdetuygur.github.io/ng-adf/assets/loading.gif": "1999e2d42b91ef83fbfd19e29b6e7dd4d612a1d3",
     "https://necdetuygur.github.io/ng-adf/favicon.ico": "58eb265f0299ad0db484949a2e5c18ee2621d982",
-    "https://necdetuygur.github.io/ng-adf/index.html": "256bdc271ee177b063a0456c3238774760c5c26c",
-    "https://necdetuygur.github.io/ng-adf/main.e83b76b21270173b.js": "4722cf045af0e8b96d020bce5a0bef275221927f",
-    "https://necdetuygur.github.io/ng-adf/manifest.webmanifest": "56ab5061af6cae648f4eeed039dc5134ed3568e7",
+    "https://necdetuygur.github.io/ng-adf/index.html": "c8dbc88c6df63b872744143bd79b00331d8b508b",
+    "https://necdetuygur.github.io/ng-adf/main.d70da646fe0c89c1.js": "839f83b022822d7101ed335464de7fc6dd23c3e0",
+    "https://necdetuygur.github.io/ng-adf/manifest.webmanifest": "00b2011353f78ea24c453581603d618897eb12fa",
     "https://necdetuygur.github.io/ng-adf/polyfills.b56eb6b7b894ac2a.js": "0920c5857420029a98c2ce879fe4964dfd24d972",
     "https://necdetuygur.github.io/ng-adf/runtime.9a875917bd455461.js": "3646787262e9eaf5dc0f610c4f330f1f2a75a43f",
     "https://necdetuygur.github.io/ng-adf/scripts.c91eedceb4883133.js": "6ba74230f51147bf9c36876f677467b57cb7883d",
